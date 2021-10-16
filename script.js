@@ -14,7 +14,6 @@ const slideshowDivs = () => {
 slideshowDivs();
 
 const divs = document.querySelectorAll('.slideshow div');
-
 let a = 1;
 
 const slideshow = () => {
@@ -31,7 +30,7 @@ const slideshow = () => {
             divs[0].classList.add('change');
             a = 1
         }
-    }, 1000)
+    }, 20000)
 }
 
 slideshow();
